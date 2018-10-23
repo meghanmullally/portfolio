@@ -1,7 +1,17 @@
 body {
-  background-color: light grey
+  background-color: white
 }
 h1 {
-  color: white
   text-align: center;
+}
+nav {
+  text-align: center;
+}
+* {
+box-sizing: border-box;
+}
+
+img {
+    border: 2px solid black;
+    width: 25%;
 }
