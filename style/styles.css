@@ -1,6 +1,8 @@
 body {
   background-image: url("gradient.jpg");
+  background-color: #cccccc;
 }
+/*----for some reason my gradient image wont show up but I've tried mutliple options------ */
 h1 {
   text-align: center;
 }
@@ -24,6 +26,12 @@ li a {
 li a:hover {
     background-color: #111;
 }
+section {
+  line-height: 1.6;
+}
+article {
+  line-height: 1.6;
+}
 p {
   text-indent: 50px
 }
@@ -33,4 +41,11 @@ h2{
 img {
     border: 2px solid black;
     width: 25%;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background: grey;
+    color: white;
+    margin-top: 20px;
 }
