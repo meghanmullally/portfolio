@@ -1,8 +1,9 @@
 body {
-  background-image: url("gradient.jpg");
-  background-color: #cccccc;
+/* background-image: url("../img/gradient.jpg"); */
+background-color: grey;
+background-image: linear-gradient(to bottom right, #bdc3c7 , #2c3e50);
 }
-/*----for some reason my gradient image wont show up but I've tried mutliple options------ */
+
 h1 {
   text-align: center;
 }
@@ -45,7 +46,7 @@ img {
 footer {
     padding: 20px;
     text-align: center;
-    background: grey;
+    background:  #333;
     color: white;
     margin-top: 20px;
 }
