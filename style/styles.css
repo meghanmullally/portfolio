@@ -74,6 +74,39 @@ article {
   line-height: 1.6;
 }
 
+section:hover {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+a{
+  color: white;
+  transition: all 1s ease-out;
+}
+
+a:hover {
+  font-weight: bold
+}
+
+section a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  transition: all 1s ease-out;
+}
+
+section a:hover,
+section a:focus {
+  color: #333;
+  background-color: #fff;
+}
+
+
+/*change later just an example for hw */
+p:nth-child(2) {
+    background: lightgrey;
+}
+
 p {
   text-indent: 50px
 }
